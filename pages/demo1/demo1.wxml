@@ -1,0 +1,53 @@
+<!--pages/demo1/demo1.wxml-->
+<!--<text>1</text>行内元素1  <text>2</text>行内元素2
+<view>块级元素1</view> <view>块级元素2</view>
+
+<text>pages/demo1/demo1.wxml哈喽号楼</text>-->
+<text class="" selectable="false" space="false" decode="false">
+你好呀：{{info.age}} {{info.name}} {{info.sex}} {{bool}}
+    
+</text>
+
+  <checkbox checked="{{bool}}"></checkbox>
+  
+  <!-- 列表循环 wx:for="{{循环的数组或者对象}}" 
+  wx:for-item="循环项的名称" wx:for-index="循环的索引"
+   wx:key="唯一属性"提高渲染能力
+  
+  -->
+  <view>
+    <view>-------------------------------------------</view>
+  <view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id"> 
+  {{item.id}}
+  {{item.name}}  
+  {{index}}
+  
+  </view>
+  
+  </view>
+<view>-------------------------------------------</view>
+<!-- 循环数组记得修改item 和index名称 -->
+<view wx:for="{{info}}"  wx:for-index="key" wx:for-item="value" wx:key="sex"> 
+{{key}}:
+{{value}}
+
+</view>
+<!-- 条件渲染 -->
+<view wx:if="{{false}}">显示</view>
+<view wx:if="{{false}}">隐藏1</view>
+<view wx:elif="{{false}}" >隐藏2</view>
+<view wx:else>else</view>
+<!-- 隐藏 -->
+<text hidden>111</text>
+<text hidden="{{true}}">222</text>
+
+<!-- input
+bindinput="handleInput"绑定处理函数
+处理函数与data同级 用逗号隔开
+-->
+<input type="text" bindinput="handleInput" />
+
+
+<button bindtap="handleTap" data-operation="{{1}}">++</button>
+<button bindtap="handleTap" data-operation="{{-1}}">--</button>
+<view>{{letter}}</view>

@@ -1,0 +1,7 @@
+/* pages/demo2/demo2.wxss */
+view{
+  background-color: red;
+  width: 200rpx;
+  height: 200rpx;
+
+}

@@ -1,0 +1,12 @@
+/* pages/demo3/demo3.wxss */
+swiper{
+
+  width: 100%;
+  /* calc()可用于计算表达式 */
+  height: calc(100vw*300/1000);
+
+}
+image{
+  width: 100%;
+ 
+}

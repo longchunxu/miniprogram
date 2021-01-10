@@ -1,0 +1,7 @@
+<!--rich-text富文本标签：可以将字符串解析成对应标签，类似vue中 v-html 功能
+1.通过nodes属性来实现
+  1.1接收标签 字符串
+  1.2接收对象数组
+-->
+
+<rich-text nodes="{{html}}"></rich-text>

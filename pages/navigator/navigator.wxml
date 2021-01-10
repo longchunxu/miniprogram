@@ -1,0 +1,18 @@
+<!-- navigator组件
+  1.target			在哪个目标上发生跳转，默认当前小程序	2.0.7
+     url				当前小程序内的跳转链接
+     2.open-type 跳转⽅式 
+     avigate 保留当前⻚⾯，跳转到应⽤内的某个⻚⾯，但是不能跳到tabbar⻚⾯(点击了没反应)
+     redirect 关闭当前⻚⾯，跳转到应⽤内的某个⻚⾯，但是不允许跳转到tabbar⻚⾯
+     switchTab 跳转到?tabBar?⻚⾯，并关闭其他所有⾮?tabBar?⻚⾯
+     reLaunch 关闭所有⻚⾯，打开到应⽤内的某个⻚⾯
+
+
+-->
+<text>-----------------------------------------</text>
+<navigator url="/pages/demo3/demo3" open-type="redirect"> 跳转到轮播图</navigator>
+<text>-----------------------------------------</text>
+<navigator url="/pages/index/index">跳转到tabbar 点击了没反应</navigator>
+<text>-----------------------------------------</text>
+<navigator url="/pages/index/index" open-type="switchTab">switchTab 跳转到tabBar⻚⾯，并关闭其他所有⾮tabBar⻚⾯</navigator>
+<text>-----------------------------------------</text>
