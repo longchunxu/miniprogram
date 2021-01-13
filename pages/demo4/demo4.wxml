@@ -1,2 +1,4 @@
 <!--pages/demo4/demo4.wxml-->
-<text>pages/demo4/demo4.wxml</text>
+<!-- 父传子 通过属性传值 -->
+<view aaa="a12345"></view>
+<Tabs></Tabs>

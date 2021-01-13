@@ -10,3 +10,13 @@ image{
   width: 100%;
  
 }
+text{
+ font-size: 14px;
+
+}
+.foot{
+
+  font-size: 12px;
+  text-align: center;
+
+}

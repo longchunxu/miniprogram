@@ -3,5 +3,5 @@
   1.1接收标签 字符串
   1.2接收对象数组
 -->
-
-<rich-text nodes="{{html}}"></rich-text>
+<!-- //rich-text标签解析html代码 -->
+<rich-text nodes="{{html}}"  ></rich-text>

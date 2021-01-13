@@ -1,0 +1,24 @@
+<!--
+type 有效值：success,success_no_circle,info,warn,waiting,cancel,download,?search,clear
+size icon的⼤⼩
+color  icon的颜⾊，同css的colo
+-->
+<!-- <icon type="info" size="40" color="red" ></icon> -->
+<!-- radio 单选 和父元素radio-group使用 
+      给父元素绑定change事件 bindchange="handleChange" 
+      js中添加处理函数（handleChange）得到对象e 取得radio中的value值 赋值this.setData（）给变量gender
+-->
+<radio-group bindchange="handleChange">
+  <radio value="male">男</radio>
+  <radio value="female">女</radio>
+</radio-group>
+<view>您当前选择的是：{{gender}}</view>
+<!-- checkbox 复选框 父元素checkbox-group使用 -->
+<view>
+  <checkbox-group bindchange="handleChecked">
+  <checkbox value="{{item.value}}" wx:for="{{list}}" wx:for-item="item" wx:key="id">{{item.name}}</checkbox>
+
+</checkbox-group>
+<view>{{msg}}</view>
+</view>
+

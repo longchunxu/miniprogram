@@ -18,6 +18,12 @@
 <swiper-item><image mode="widthFix" src="img/BIGPHOTO.png"></image> </swiper-item>
 <swiper-item>  <image mode="widthFix" src="img/dm.png" ></image>  </swiper-item>
 <swiper-item>  <image mode="widthFix" src="img/dt.png" ></image>  </swiper-item>
-
-
  </swiper>
+
+<rich-text nodes="{{p}}"></rich-text>
+ <text>->重庆市中际华云信息科技有限公司成立于2019年12月,是腾讯的重庆合作商、深圳微看科技有限公司在重庆和西藏的总代理，拥有自己完整的智慧校园平台，能够满足学校现有的需求，也可以针对学校的要求定制平台。主要是为幼儿园、中小学、高中及大学等教育机构提供智慧校园等综合性服务。所谓智慧校园就是建设一个大数据为中心，将校园教学生活和管理集为一体的智能化校园方式，通过智慧校园建设，实现更加便利和高效的校园生活及教学体验。 
+</text>
+<rich-text nodes="{{p1}}"></rich-text>
+
+
+<view class="foot" >   CopyRight © 2019-2021 Powered by ZJHY.</view>

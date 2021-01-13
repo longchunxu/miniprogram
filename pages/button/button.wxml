@@ -1,0 +1,19 @@
+<!--
+open-type：
+contact 打开客服会话，如果⽤⼾在会话中点击消息卡⽚后返回⼩程序，可以从
+bindcontact 回调中获得具体信息
+share 触发⽤⼾转发，使⽤前建议先阅读使⽤指引
+getPhoneNumber 获取⽤⼾⼿机号，可以从bindgetphonenumber回调中获取到⽤⼾信息，
+getUserInfo 获取⽤⼾信息，可以从bindgetuserinfo回调中获取到⽤⼾信息
+launchApp 打开APP，可以通过app-parameter属性设定向APP传的参数具体说明
+openSetting 打开授权设置⻚
+feedback 打开“意⻅反馈”⻚⾯，⽤⼾可提交反馈内容并上传⽇志，开发者可以登
+录⼩程序管理后台后进⼊左侧菜单“客服反馈”⻚⾯获取到反馈内容
+-->
+<button open-type="contact">打开客服会话</button>
+<button open-type="share">发送给朋友</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhonenumber">获取电话</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserinfo">获取用户信息</button>
+<button open-type="openSetting">openSetting</button>
+<button open-type="feedback">feedback</button>
+  
